@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#input-section {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.graph {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.bar {
+    display: inline-block;
+    margin: 5px 0;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+
+.price-bar {
+    background-color: steelblue;
+}
+
+.rating-bar {
+    background-color: orange;
+}
